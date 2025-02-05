@@ -1,0 +1,69 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(214, 209, 209)
+}
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.gauche{
+    background-color: white;
+    padding: 50px;
+    border-radius: 25px;
+}
+.droite{
+    background-color: #111137;
+    color: white; 
+    border-radius: 25px;
+    padding: 50px;
+    
+}
+.gauche button {
+    background-color: #111137;
+    color: white;
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 30px;
+   margin-top: 90px;
+}
+.droite button {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+ul  li {
+    list-style: none;
+   
+}
+.fa{
+    padding: 8px;
+}
+.droite h1{
+    height : 15px;
+   
+}  
+.gauche h1 {
+    height: 15px;
+}
+.droite h2 {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.gauche h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titre{
+    margin-left: 45px;  
+}
+.titre h2{
+    height: 60px;
+}
